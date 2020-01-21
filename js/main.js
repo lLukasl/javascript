@@ -1,6 +1,24 @@
-var d = new Date();
-alert(d);
-alert(d.getFullYear());
+function soma(n1,n2){
+    return n1 + n2;
+}
+
+alert(soma(5,15));
+
+function validade(idade){
+    var validar;
+    if (idade >= 18){
+        validar = true
+    }else{
+        validar = false
+    }
+    return validar;
+}
+
+var idade = prompt("Digite sua idade");
+console.log(validade(idade));
+// var d = new Date();
+// alert(d);
+// alert(d.getFullYear());
 
 // var count;
 // for(count=0; count <=5; count++){
